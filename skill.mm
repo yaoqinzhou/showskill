@@ -190,7 +190,7 @@
 <node CREATED="1395327307206" ID="ID_888085260" MODIFIED="1395327319691" TEXT="LinkedHashMap"/>
 </node>
 <node CREATED="1424080672119" ID="ID_783584666" MODIFIED="1424080681584" TEXT="&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
-<node CREATED="1424080689921" ID="ID_1535420130" LINK="java/collection/ArrayList&#x548c;LinkedList&#x5982;&#x4f55;&#x9009;&#x62e9;.txt" MODIFIED="1424080851940" TEXT="ArrayList&#x548c;LinkedList&#x5982;&#x4f55;&#x9009;&#x62e9;"/>
+<node CREATED="1424080689921" ID="ID_1535420130" LINK="java/collection/ArrayList&#x548c;LinkedList&#x5982;&#x4f55;&#x9009;&#x62e9;.txt" MODIFIED="1424081099867" TEXT="ArrayList&#x548c;LinkedList&#x5982;&#x4f55;&#x9009;&#x62e9;"/>
 </node>
 </node>
 </node>
