@@ -2,6 +2,8 @@
 
 ArrayList数组实现，LinkedList链表实现
 
+当遇到访问比插入和删除频繁的时候，应该用ArrayList,反之应该用LinkedList.
+
 ##ArrayList中的新增和删除效率比较低
 
 ```
