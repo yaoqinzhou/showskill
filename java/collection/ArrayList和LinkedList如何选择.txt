@@ -1,0 +1,4 @@
+#ArrayList和LinkedList如何选择
+
+ArrayList底层是数组，LinkedList底层是链表
+
