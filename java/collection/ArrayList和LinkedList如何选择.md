@@ -36,6 +36,8 @@ public Object remove(int i){
 }
 ```
 可以看到新增和删除操作中用到了Array.copyOf和System.arraycopy方法，Array.copyOf中会调用System.arraycopy。
+当向ArrayList中新增数据的时候，java会去检查是否有足够的空间存储对象，没有就新建一个长度更长的数组，然后
+调用Array.copyOf将之前的数组复制过去，现有的数组引用指向新的数组。
 
 
 
