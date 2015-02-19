@@ -95,9 +95,21 @@
 </node>
 <node CREATED="1394679821012" ID="ID_206861872" MODIFIED="1395245654447" TEXT="&#x57fa;&#x7840;&#x77e5;&#x8bc6;">
 <node CREATED="1394679836356" ID="ID_399517127" LINK="java/&#x591a;&#x7ebf;&#x7a0b;/JAVA&#x591a;&#x7ebf;&#x7a0b;&#x57fa;&#x7840;.docx" MODIFIED="1396591987528" TEXT="&#x591a;&#x7ebf;&#x7a0b;">
+<node CREATED="1424363246172" ID="ID_1305544557" MODIFIED="1424363280437" TEXT="&#x7ebf;&#x7a0b;&#x7684;&#x6267;&#x884c;&#x65f6;&#x62a2;&#x5360;&#x5f0f;&#x7684;&#xff0c;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x4efb;&#x4f55;&#x65f6;&#x5019;&#x90fd;&#x6709;&#x53ef;&#x80fd;&#x88ab;&#x6302;&#x8d77;"/>
 <node CREATED="1394687435863" ID="ID_709258559" MODIFIED="1394687445540" TEXT="&#x7ebf;&#x7a0b;&#x521b;&#x5efa;&#x7684;&#x65b9;&#x5f0f;">
-<node CREATED="1395025344730" ID="ID_1054822621" MODIFIED="1395025356163" TEXT="&#x7ee7;&#x627f;Thread&#x7c7b;"/>
-<node CREATED="1395032579777" ID="ID_611973193" MODIFIED="1395032588634" TEXT="&#x5b9e;&#x73b0;Runnable&#x63a5;&#x53e3;"/>
+<node CREATED="1395025344730" ID="ID_1054822621" MODIFIED="1395025356163" TEXT="&#x7ee7;&#x627f;Thread&#x7c7b;">
+<node CREATED="1424364103894" ID="ID_449455930" MODIFIED="1424364151452" TEXT="&#x91cd;&#x5199;&#x8be5;&#x7c7b;&#x7684;run&#x65b9;&#x6cd5;&#xff0c;&#x8c03;&#x7528;&#x7ebf;&#x7a0b;&#x5bf9;&#x8c61;&#x7684;start&#x65b9;&#x6cd5;&#x542f;&#x52a8;"/>
+<node CREATED="1424364847403" ID="ID_1610829348" MODIFIED="1424364856753" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424364858964" ID="ID_1548621820" MODIFIED="1424364872913" TEXT="Thread.currentThread():  &#x8fd4;&#x56de;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;"/>
+<node CREATED="1424364888307" ID="ID_950540362" MODIFIED="1424364933043" TEXT="getName(): &#x8fd4;&#x56de;&#x7ebf;&#x7a0b;&#x540d;&#x5b57;"/>
+<node CREATED="1424364935147" ID="ID_61202786" MODIFIED="1424364945588" TEXT="setName(name): &#x8bbe;&#x7f6e;&#x7ebf;&#x7a0b;&#x540d;&#x5b57;"/>
+</node>
+</node>
+<node CREATED="1395032579777" ID="ID_611973193" MODIFIED="1395032588634" TEXT="&#x5b9e;&#x73b0;Runnable&#x63a5;&#x53e3;">
+<node CREATED="1424365051659" ID="ID_1250836620" MODIFIED="1424365112579" TEXT="&#x91cd;&#x5199;&#x63a5;&#x53e3;&#x7684;run&#x65b9;&#x6cd5;&#xff0c;&#x5176;&#x5b9e;&#x73b0;&#x7c7b;&#x4f5c;&#x4e3a;Thread&#x7684;target&#x6765;&#x521b;&#x5efa;Thread&#x5bf9;&#x8c61;"/>
+<node CREATED="1424366901363" ID="ID_1178685621" MODIFIED="1424366928456" TEXT="&#x591a;&#x4e2a;&#x7ebf;&#x7a0b;&#x53ef;&#x4ee5;&#x5171;&#x4eab;&#x540c;&#x4e00;&#x4e2a;&#x5b9e;&#x73b0;&#x7c7b;&#x7684;&#x5b9e;&#x4f8b;&#x5c5e;&#x6027;"/>
+<node CREATED="1424367215353" ID="ID_1007453871" LINK="java/thread/Runnable&#x521b;&#x5efa;&#x7ebf;&#x7a0b;.md" MODIFIED="1424367408040" TEXT="&#x793a;&#x4f8b;"/>
+</node>
 <node CREATED="1395038201189" ID="ID_1269173156" MODIFIED="1395038221548" TEXT="&#x4f7f;&#x7528;Callable&#x63a5;&#x53e3;&#x548c;FutureTask&#x7c7b;"/>
 </node>
 <node CREATED="1394687448063" ID="ID_381723398" MODIFIED="1395070193984" TEXT="&#x7ebf;&#x7a0b;&#x7684;&#x751f;&#x547d;&#x5468;&#x671f;">
