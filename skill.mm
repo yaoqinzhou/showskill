@@ -172,8 +172,24 @@
 </node>
 <node CREATED="1395070353726" ID="ID_1599047886" MODIFIED="1395070357331" TEXT="&#x7ebf;&#x7a0b;&#x540c;&#x6b65;">
 <node CREATED="1395070363838" ID="ID_1127920600" MODIFIED="1395070370767" TEXT="&#x540c;&#x6b65;&#x4ee3;&#x7801;&#x5757;"/>
-<node CREATED="1395070373206" ID="ID_1188898363" MODIFIED="1395070376942" TEXT="&#x540c;&#x6b65;&#x65b9;&#x6cd5;"/>
-<node CREATED="1395070382951" ID="ID_364429916" MODIFIED="1395070386121" TEXT="&#x540c;&#x6b65;&#x9501;"/>
+<node CREATED="1395070373206" ID="ID_1188898363" MODIFIED="1395070376942" TEXT="&#x540c;&#x6b65;&#x65b9;&#x6cd5;">
+<node CREATED="1424447964787" ID="ID_1463703199" MODIFIED="1424447996064" TEXT="&#x540c;&#x6b65;&#x65b9;&#x6cd5;&#x7684;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x662f;this&#xff0c;&#x4e5f;&#x5c31;&#x662f;&#x5bf9;&#x8c61;&#x672c;&#x8eab;"/>
+</node>
+<node CREATED="1395070382951" ID="ID_364429916" MODIFIED="1395070386121" TEXT="&#x540c;&#x6b65;&#x9501;">
+<node CREATED="1424449090234" ID="ID_647696932" MODIFIED="1424449095096" TEXT="Lock&#x63a5;&#x53e3;">
+<node CREATED="1424449108303" ID="ID_1919381299" MODIFIED="1424449116102" TEXT="&#x5b9e;&#x73b0;&#x7c7b;">
+<node CREATED="1424449127448" ID="ID_513982749" MODIFIED="1424449150789" TEXT="ReentrantLock(&#x53ef;&#x91cd;&#x5165;&#x9501;)">
+<node CREATED="1424449260406" ID="ID_1587379523" MODIFIED="1424449273346" TEXT="&#x53ef;&#x663e;&#x793a;&#x52a0;&#x9501;&#x548c;&#x91ca;&#x653e;&#x9501;"/>
+<node CREATED="1424449541038" ID="ID_621821021" LINK="java/thread/ReentrantLock_demo.md" MODIFIED="1424449550538" TEXT="&#x793a;&#x4f8b;"/>
+</node>
+</node>
+</node>
+<node CREATED="1424449097847" ID="ID_1137561113" MODIFIED="1424449173330" TEXT="ReadWriteLock&#x63a5;&#x53e3;(&#x8bfb;&#x5199;&#x9501;)">
+<node CREATED="1424449192224" ID="ID_578896535" MODIFIED="1424449194601" TEXT="&#x5b9e;&#x73b0;&#x7c7b;">
+<node CREATED="1424449197662" ID="ID_472511509" MODIFIED="1424449216759" TEXT="ReentrantReadWriteLock"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1395070578855" ID="ID_1314254427" MODIFIED="1395070584015" TEXT="&#x7ebf;&#x7a0b;&#x901a;&#x4fe1;">
 <node CREATED="1395070587382" ID="ID_125508196" MODIFIED="1395070600545" TEXT="&#x8c03;&#x7528;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x7684;&#x65b9;&#x6cd5;">
@@ -203,6 +219,14 @@
 <node CREATED="1424435260338" ID="ID_337002614" MODIFIED="1424435345679" TEXT="&#x5f53;&#x4e3b;&#x7ebf;&#x7a0b;&#x7ed3;&#x675f;&#x540e;&#xff0c;&#x5b50;&#x7ebf;&#x7a0b;&#x4e0d;&#x4f1a;&#x968f;&#x4e4b;&#x7ed3;&#x675f;&#xff0c;&#x4e00;&#x65e6;&#x5b50;&#x7ebf;&#x7a0b;&#x542f;&#x52a8;&#xff0c;&#x5c31;&#x62e5;&#x6709;&#x548c;&#x4e3b;&#x7ebf;&#x7a0b;&#x76f8;&#x540c;&#x7684;&#x5730;&#x4f4d;&#xff0c;&#x4e0d;&#x53d7;&#x4e3b;&#x7ebf;&#x7a0b;&#x5f71;&#x54cd;"/>
 <node CREATED="1424435530886" ID="ID_1113390606" MODIFIED="1424435554846" TEXT="&#x4e00;&#x65e6;&#x7ebf;&#x7a0b;&#x5904;&#x4e8e;&#x6b7b;&#x4ea1;&#x72b6;&#x6001;&#x540e;&#xff0c;&#x5c31;&#x4e0d;&#x53ef;&#x80fd;&#x518d;&#x91cd;&#x65b0;&#x542f;&#x52a8;"/>
 <node CREATED="1424446118307" ID="ID_760643038" LINK="java/thread/sleep&#x548c;yield&#x7684;&#x533a;&#x522b;.md" MODIFIED="1424446515919" TEXT="sleep&#x548c;yield&#x7684;&#x533a;&#x522b;"/>
+<node CREATED="1424448124604" ID="ID_597550622" MODIFIED="1424448162815" TEXT="synchronized&#x5173;&#x952e;&#x5b57;&#x53ef;&#x4ee5;&#x4fee;&#x9970;&#x65b9;&#x6cd5;&#x548c;&#x4ee3;&#x7801;&#x5757;&#xff0c;&#x4f46;&#x4e0d;&#x80fd;&#x4fee;&#x9970;&#x6784;&#x9020;&#x5668;&#x548c;&#x5c5e;&#x6027;&#x7b49;"/>
+<node CREATED="1424448590354" ID="ID_1836383969" LINK="java/thread/&#x91ca;&#x653e;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x7684;&#x9501;&#x5b9a;.md" MODIFIED="1424448880286" TEXT="&#x91ca;&#x653e;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x7684;&#x9501;&#x5b9a;"/>
+<node CREATED="1424450156837" ID="ID_550705213" MODIFIED="1424450161770" TEXT="&#x53ef;&#x91cd;&#x5165;&#x9501;">
+<node CREATED="1424449965508" ID="ID_1900536287" MODIFIED="1424450075893" TEXT="&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x53ef;&#x4ee5;&#x5bf9;&#x5df2;&#x7ecf;&#x88ab;&#x52a0;&#x9501;&#x7684;ReentrantLock&#x518d;&#x6b21;&#x52a0;&#x9501;&#xff0c;&#x4e00;&#x6bb5;&#x88ab;&#x9501;&#x7684;&#x4ee3;&#x7801;&#x53ef;&#x4ee5;&#x8c03;&#x7528;&#x53e6;&#x4e00;&#x4e2a;&#x88ab;&#x76f8;&#x540c;&#x9501;&#x4fdd;&#x62a4;&#x7684;&#x4ee3;&#x7801;"/>
+</node>
+<node CREATED="1424450195292" ID="ID_698315552" MODIFIED="1424450198429" TEXT="&#x6b7b;&#x9501;">
+<node CREATED="1424450201307" ID="ID_919908927" MODIFIED="1424450226581" TEXT="&#x5f53;&#x4e24;&#x4e2a;&#x7ebf;&#x7a0b;&#x4e92;&#x76f8;&#x7b49;&#x5f85;&#x5bf9;&#x65b9;&#x91ca;&#x653e;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x65f6;&#x5c31;&#x4f1a;&#x53d1;&#x751f;&#x6b7b;&#x9501;"/>
+</node>
 </node>
 </node>
 <node CREATED="1395106620378" ID="ID_815409286" LINK="java/&#x8f93;&#x5165;&#x8f93;&#x51fa;/java&#x8f93;&#x5165;&#x8f93;&#x51fa;.docx" MODIFIED="1395245628796" TEXT="&#x8f93;&#x5165;/&#x8f93;&#x51fa;&#xff08;IO&#xff09;">
