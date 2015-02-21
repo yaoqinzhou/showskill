@@ -306,10 +306,26 @@
 </node>
 </node>
 </node>
+<node CREATED="1424547375714" ID="ID_753206363" MODIFIED="1424547424327" TEXT="&#x7ebf;&#x7a0b;&#x5b89;&#x5168;&#x5de5;&#x5177;&#x7c7b;">
+<node CREATED="1424547385377" ID="ID_1975371991" MODIFIED="1424547394565" TEXT="ThreadLocal&#x7c7b;">
+<node CREATED="1424547429059" ID="ID_1049026140" MODIFIED="1424547476648" TEXT="&#x4f7f;&#x6bcf;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x90fd;&#x53ef;&#x4ee5;&#x72ec;&#x7acb;&#x5730;&#x6539;&#x53d8;&#x81ea;&#x5df1;&#x7684;&#x526f;&#x672c;&#xff0c;&#x800c;&#x4e0d;&#x4f1a;&#x548c;&#x5176;&#x4ed6;&#x7ebf;&#x7a0b;&#x7684;&#x526f;&#x672c;&#x51b2;&#x7a81;"/>
+<node CREATED="1424547481906" ID="ID_1041006636" MODIFIED="1424547487694" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424547490753" ID="ID_1451844124" MODIFIED="1424547531408" TEXT="get():  &#x8fd4;&#x56de;&#x6b64;&#x7ebf;&#x7a0b;&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x4e2d;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x526f;&#x672c;&#x503c;"/>
+<node CREATED="1424547542953" ID="ID_1040009924" MODIFIED="1424547574278" TEXT="remove():  &#x5220;&#x9664;&#x6b64;&#x7ebf;&#x7a0b;&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x4e2d;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x7684;&#x503c;"/>
+<node CREATED="1424547585522" ID="ID_277267431" MODIFIED="1424547615658" TEXT="set(T value): &#x8bbe;&#x7f6e;&#x6b64;&#x7ebf;&#x7a0b;&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x4e2d;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x526f;&#x672c;&#x4e2d;&#x7684;&#x503c;"/>
+</node>
+<node CREATED="1424549064003" ID="ID_1823123602" LINK="java/thread/ThreadLocal_test.md" MODIFIED="1424549073253" TEXT="&#x793a;&#x4f8b;"/>
+</node>
 <node CREATED="1395070972733" ID="ID_1879899468" MODIFIED="1395070977955" TEXT="&#x7ebf;&#x7a0b;&#x5b89;&#x5168;&#x96c6;&#x5408;">
 <node CREATED="1395070993717" ID="ID_364916362" MODIFIED="1395070995709" TEXT="&#x4f7f;&#x7528;Collections&#x7c7b;&#x4e0b;&#x4ee5;synchronized&#x5f00;&#x5934;&#x7684;&#x9759;&#x6001;&#x65b9;&#x6cd5;&#x5305;&#x88c5;&#x4e0d;&#x5b89;&#x5168;&#x7684;&#x7ebf;&#x7a0b;&#x96c6;&#x5408;"/>
-<node CREATED="1395071012340" ID="ID_500240727" MODIFIED="1395071013452" TEXT="concurrent&#x5305;&#x4e0b;&#x4ee5;Concurrent&#x5f00;&#x5934;&#x7684;&#x96c6;&#x5408;"/>
+<node CREATED="1395071012340" ID="ID_500240727" MODIFIED="1395071013452" TEXT="concurrent&#x5305;&#x4e0b;&#x4ee5;Concurrent&#x5f00;&#x5934;&#x7684;&#x96c6;&#x5408;">
+<node CREATED="1424549515626" ID="ID_740874694" MODIFIED="1424549574919" TEXT="&#x5199;&#x5165;&#x64cd;&#x4f5c;&#x90fd;&#x662f;&#x7ebf;&#x7a0b;&#x5b89;&#x5168;&#x7684;&#xff0c;&#x8bfb;&#x53d6;&#x64cd;&#x4f5c;&#x4e0d;&#x52a0;&#x9501;&#xff0c;&#x91c7;&#x7528;&#x66f4;&#x590d;&#x6742;&#x7684;&#x7b97;&#x6cd5;&#x4fdd;&#x8bc1;&#x62e5;&#x6709;&#x4e0d;&#x4f1a;&#x9501;&#x4f4f;&#x6574;&#x4e2a;&#x96c6;&#x5408;"/>
+<node CREATED="1424549649426" ID="ID_187666653" MODIFIED="1424549661320" TEXT="ConcurrentHashMap">
+<node CREATED="1424549663193" ID="ID_228401358" MODIFIED="1424549739102" TEXT="&#x9ed8;&#x8ba4;&#x652f;&#x6301;16&#x4e2a;&#x7ebf;&#x7a0b;&#x5e76;&#x53d1;&#x5199;&#x5165;&#xff0c;&#x8d85;&#x8fc7;&#x5219;&#x9700;&#x7b49;&#x5f85;&#xff0c;&#x53ef;&#x4ee5;&#x8bbe;&#x7f6e;concurrencyLevel&#x4fee;&#x6539;&#x5e76;&#x53d1;&#x6570;"/>
+</node>
+</node>
 <node CREATED="1395071027629" ID="ID_408072301" MODIFIED="1395071028645" TEXT="&#x4ee5;CopyOnWrite&#x5f00;&#x5934;&#x7684;&#x96c6;&#x5408;"/>
+</node>
 </node>
 <node CREATED="1424435253376" ID="ID_762248886" MODIFIED="1424435257292" TEXT="notice issue">
 <node CREATED="1424435260338" ID="ID_337002614" MODIFIED="1424435345679" TEXT="&#x5f53;&#x4e3b;&#x7ebf;&#x7a0b;&#x7ed3;&#x675f;&#x540e;&#xff0c;&#x5b50;&#x7ebf;&#x7a0b;&#x4e0d;&#x4f1a;&#x968f;&#x4e4b;&#x7ed3;&#x675f;&#xff0c;&#x4e00;&#x65e6;&#x5b50;&#x7ebf;&#x7a0b;&#x542f;&#x52a8;&#xff0c;&#x5c31;&#x62e5;&#x6709;&#x548c;&#x4e3b;&#x7ebf;&#x7a0b;&#x76f8;&#x540c;&#x7684;&#x5730;&#x4f4d;&#xff0c;&#x4e0d;&#x53d7;&#x4e3b;&#x7ebf;&#x7a0b;&#x5f71;&#x54cd;"/>
@@ -323,6 +339,7 @@
 <node CREATED="1424450195292" ID="ID_698315552" MODIFIED="1424450198429" TEXT="&#x6b7b;&#x9501;">
 <node CREATED="1424450201307" ID="ID_919908927" MODIFIED="1424450226581" TEXT="&#x5f53;&#x4e24;&#x4e2a;&#x7ebf;&#x7a0b;&#x4e92;&#x76f8;&#x7b49;&#x5f85;&#x5bf9;&#x65b9;&#x91ca;&#x653e;&#x540c;&#x6b65;&#x76d1;&#x89c6;&#x5668;&#x65f6;&#x5c31;&#x4f1a;&#x53d1;&#x751f;&#x6b7b;&#x9501;"/>
 </node>
+<node CREATED="1424549140282" ID="ID_66121735" LINK="java/thread/ThreadLocal&#x4e0e;&#x540c;&#x6b65;&#x673a;&#x5236;.md" MODIFIED="1424549332984" TEXT="ThreadLocal&#x4e0e;&#x540c;&#x6b65;&#x673a;&#x5236;"/>
 </node>
 </node>
 <node CREATED="1395106620378" ID="ID_815409286" LINK="java/&#x8f93;&#x5165;&#x8f93;&#x51fa;/java&#x8f93;&#x5165;&#x8f93;&#x51fa;.docx" MODIFIED="1395245628796" TEXT="&#x8f93;&#x5165;/&#x8f93;&#x51fa;&#xff08;IO&#xff09;">
