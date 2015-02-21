@@ -257,7 +257,7 @@
 <node CREATED="1424501877142" ID="ID_784008299" MODIFIED="1424501897465" TEXT="&#x521b;&#x5efa;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x5728;&#x6307;&#x5b9a;&#x5ef6;&#x8fdf;&#x540e;&#x6267;&#x884c;&#x4efb;&#x52a1;"/>
 </node>
 </node>
-<node CREATED="1424513644042" ID="ID_1941934913" MODIFIED="1424513659524" TEXT="ExecutorService&#x7c7b;">
+<node CREATED="1424513644042" ID="ID_1941934913" MODIFIED="1424530021725" TEXT="ExecutorService&#x63a5;&#x53e3;">
 <node CREATED="1424513839985" ID="ID_1024827719" MODIFIED="1424513842953" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
 <node CREATED="1424513845658" ID="ID_1166107188" MODIFIED="1424513865958" TEXT="Future&lt;?&gt; submit(Runnable task)">
 <node CREATED="1424513877561" ID="ID_470935157" MODIFIED="1424513983549" TEXT="&#x5c06;&#x4e00;&#x4e2a;Runnable&#x5bf9;&#x8c61;&#x63d0;&#x4ea4;&#x7ed9;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x56e0;&#x4e3a;run&#x65b9;&#x6cd5;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x503c;&#xff0c;&#x6240;&#x4ee5;Future&#x5bf9;&#x8c61;&#x5728;&#x7ebf;&#x7a0b;&#x6267;&#x884c;&#x5b8c;&#x540e;&#x8fd4;&#x56de;null&#xff0c;&#x53ef;&#x4ee5;&#x8c03;&#x7528;Future&#x7684;isDone&#x548c;isCancle&#x65b9;&#x6cd5;&#x83b7;&#x53d6;Runnable&#x5bf9;&#x8c61;&#x7684;&#x6267;&#x884c;&#x72b6;&#x6001;"/>
@@ -268,6 +268,40 @@
 </node>
 <node CREATED="1424514332513" ID="ID_927315388" MODIFIED="1424514357969" TEXT="&lt;T&gt; Future &lt;T&gt; submit(Callable&lt;T&gt; task)">
 <node CREATED="1424514361728" ID="ID_817096897" MODIFIED="1424514390245" TEXT="&#x65b9;&#x6cd5;&#x4e2d;&#x7684;Future&#x4ee3;&#x8868;Callable&#x5bf9;&#x8c61;&#x91cc;&#x7684;call&#x65b9;&#x6cd5;&#x8fd4;&#x56de;&#x503c;"/>
+<node CREATED="1424529524097" ID="ID_481092788" LINK="java/thread/Callable_submit.md" MODIFIED="1424529540253" TEXT="&#x793a;&#x4f8b;"/>
+</node>
+</node>
+<node CREATED="1424529963125" ID="ID_1032569978" MODIFIED="1424529966319" TEXT="&#x5b9e;&#x73b0;&#x7c7b;">
+<node CREATED="1424529969485" ID="ID_1446892629" MODIFIED="1424529977574" TEXT="ForkJoinPool">
+<node CREATED="1424530085365" ID="ID_1975001136" MODIFIED="1424530090663" TEXT="&#x6784;&#x9020;&#x5668;">
+<node CREATED="1424530093804" ID="ID_250611921" MODIFIED="1424530112023" TEXT="ForkJoinPool(int size)">
+<node CREATED="1424530125622" ID="ID_33596179" MODIFIED="1424530155726" TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x5305;&#x542b;size&#x4e2a;&#x5e76;&#x884c;&#x7ebf;&#x7a0b;&#x7684;ForkJoinPool"/>
+</node>
+<node CREATED="1424530160549" ID="ID_773656562" MODIFIED="1424530166573" TEXT="ForkJoinPool()">
+<node CREATED="1424530171614" ID="ID_1912874161" MODIFIED="1424530215100" TEXT="&#x4ee5;Runtime.availableProcessors()&#x65b9;&#x6cd5;&#x7684;&#x8fd4;&#x56de;&#x503c;&#x672a;&#x505a;&#x5e76;&#x884c;&#x4e2a;&#x6570;&#x521b;&#x5efa;ForkJoinPoll"/>
+</node>
+</node>
+<node CREATED="1424530439916" ID="ID_1762159858" MODIFIED="1424530462264" TEXT="ForkJoinTask&#x62bd;&#x8c61;&#x7c7b;">
+<node CREATED="1424530472251" ID="ID_1320925193" MODIFIED="1424530475301" TEXT="&#x62bd;&#x8c61;&#x5b50;&#x7c7b;">
+<node CREATED="1424530478443" ID="ID_957544606" MODIFIED="1424530487988" TEXT="RecursiveAction">
+<node CREATED="1424530526083" ID="ID_1986284325" MODIFIED="1424530535257" TEXT="&#x8868;&#x793a;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x4efb;&#x52a1;"/>
+</node>
+<node CREATED="1424530491267" ID="ID_1194905358" MODIFIED="1424530515529" TEXT="RecursiveTask">
+<node CREATED="1424530538436" ID="ID_1674311262" MODIFIED="1424530543305" TEXT="&#x8868;&#x793a;&#x6709;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x4efb;&#x52a1;"/>
+</node>
+</node>
+<node CREATED="1424532223437" ID="ID_1262048459" MODIFIED="1424532229126" TEXT="&#x4e24;&#x79cd;&#x64cd;&#x4f5c;">
+<node CREATED="1424532232387" ID="ID_894258398" MODIFIED="1424532241736" TEXT="Fork(&#x5206;&#x89e3;)"/>
+<node CREATED="1424532244486" ID="ID_261999769" MODIFIED="1424532253856" TEXT="Join(&#x5408;&#x5e76;)"/>
+</node>
+</node>
+<node CREATED="1424532271635" ID="ID_147128953" MODIFIED="1424532324451" TEXT="&#x53c2;&#x8003;&#x5927;&#x5c0f;(Reference Size)">
+<node CREATED="1424532334331" ID="ID_147374214" MODIFIED="1424532375428" TEXT="&#x7528;&#x4e8e;&#x51b3;&#x5b9a;&#x4e00;&#x4e2a;&#x4efb;&#x52a1;&#x662f;&#x5426;&#x9700;&#x8981;&#x62c6;&#x5206;&#x6216;&#x4e0d;&#x9700;&#x8981;&#x62c6;&#x5206;"/>
+</node>
+<node CREATED="1424530350829" ID="ID_1068773097" MODIFIED="1424530354022" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424530357037" ID="ID_1575753777" MODIFIED="1424530591064" TEXT="submit(ForkJoinTask  task)"/>
+<node CREATED="1424530384651" ID="ID_1457185080" MODIFIED="1424530594228" TEXT="invoke(ForkJoinTask  task)"/>
+</node>
 </node>
 </node>
 </node>
