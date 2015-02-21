@@ -1,4 +1,4 @@
-#<T> Future<T> submit(Runnable task,T result)Ê¾Àý
+ï»¿#<T> Future<T> submit(Runnable task,T result)ç¤ºä¾‹
 
 ```
 public class RunnableThread implements Runnable{
@@ -13,9 +13,9 @@ public class RunnableThread implements Runnable{
 		
 		ExecutorService service = Executors.newCachedThreadPool();
 		
-		Future future = service.submit(runnableThread, "runnableThread·µ»ØÖµ");
+		Future future = service.submit(runnableThread, "runnableThreadè¿”å›žå€¼");
 		
-		System.out.println("future·µ»ØÖµ£º" + future.get());
+		System.out.println("futureè¿”å›žå€¼ï¼š" + future.get());
 	}
 }
 ```
