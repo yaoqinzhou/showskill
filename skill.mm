@@ -239,7 +239,38 @@
 </node>
 </node>
 <node CREATED="1395070821869" ID="ID_485679368" MODIFIED="1395070825921" TEXT="&#x7ebf;&#x7a0b;&#x6c60;">
-<node CREATED="1395070931084" ID="ID_125179743" MODIFIED="1395070944787" TEXT="&#x4f7f;&#x7528;Executors&#x5de5;&#x5382;&#x7c7b;&#x751f;&#x6210;&#x7ebf;&#x7a0b;&#x6c60;"/>
+<node CREATED="1424500243460" ID="ID_1591095108" MODIFIED="1424500318046" TEXT="&#x7ebf;&#x7a0b;&#x6c60;&#x5728;&#x542f;&#x52a8;&#x65f6;&#x521b;&#x5efa;&#x6307;&#x5b9a;&#x6570;&#x91cf;&#x7684;&#x7a7a;&#x95f2;&#x7ebf;&#x7a0b;&#xff0c;&#x5f53;&#x7ebf;&#x7a0b;&#x7684;run&#x6216;&#x8005;call&#x65b9;&#x6cd5;&#x6267;&#x884c;&#x5b8c;&#x540e;&#x4e0d;&#x4f1a;&#x7acb;&#x5373;&#x6b7b;&#x4ea1;&#xff0c;&#x800c;&#x662f;&#x91cd;&#x65b0;&#x56de;&#x5230;&#x7a7a;&#x95f2;&#x72b6;&#x6001;&#xff0c;&#x7b49;&#x5f85;&#x4e0b;&#x6b21;&#x6267;&#x884c;"/>
+<node CREATED="1395070931084" ID="ID_125179743" MODIFIED="1424500367317" TEXT="Executors&#x5de5;&#x5382;&#x7c7b;&#x751f;&#x6210;&#x7ebf;&#x7a0b;&#x6c60;">
+<node CREATED="1424500394683" ID="ID_720851605" MODIFIED="1424501925221" TEXT="newCachedThreadPool()">
+<node CREATED="1424500411850" ID="ID_1715165579" MODIFIED="1424500432282" TEXT="&#x5177;&#x6709;&#x7f13;&#x5b58;&#x529f;&#x80fd;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x6ca1;&#x6709;&#x56fa;&#x5b9a;&#x5927;&#x5c0f;"/>
+</node>
+<node CREATED="1424500435002" ID="ID_868578377" MODIFIED="1424501920199" TEXT="newFixedThreadPool(poolsize)">
+<node CREATED="1424500447011" ID="ID_1109581758" MODIFIED="1424500465369" TEXT="&#x53ef;&#x91cd;&#x7528;&#x5177;&#x6709;&#x56fa;&#x5b9a;&#x7ebf;&#x7a0b;&#x6570;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;"/>
+</node>
+<node CREATED="1424500478451" ID="ID_519429297" MODIFIED="1424501912413" TEXT="newSingleThreadExecutor()">
+<node CREATED="1424500500275" ID="ID_1208547257" MODIFIED="1424500511824" TEXT="&#x521b;&#x5efa;&#x5355;&#x4e2a;&#x7ebf;&#x7a0b;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;"/>
+</node>
+<node CREATED="1424501787781" ID="ID_757320184" MODIFIED="1424501812388" TEXT="newScheduleThreadPool(poolSize)">
+<node CREATED="1424501815090" ID="ID_1340747909" MODIFIED="1424501844198" TEXT="&#x521b;&#x5efa;&#x6307;&#x5b9a;&#x6570;&#x91cf;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x53ef;&#x4ee5;&#x5728;&#x6307;&#x5b9a;&#x5ef6;&#x8fdf;&#x540e;&#x6267;&#x884c;&#x4efb;&#x52a1;"/>
+</node>
+<node CREATED="1424501853877" ID="ID_1015734591" MODIFIED="1424501871031" TEXT="newSingleThreadScheduleExecutor()">
+<node CREATED="1424501877142" ID="ID_784008299" MODIFIED="1424501897465" TEXT="&#x521b;&#x5efa;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x7684;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x5728;&#x6307;&#x5b9a;&#x5ef6;&#x8fdf;&#x540e;&#x6267;&#x884c;&#x4efb;&#x52a1;"/>
+</node>
+</node>
+<node CREATED="1424513644042" ID="ID_1941934913" MODIFIED="1424513659524" TEXT="ExecutorService&#x7c7b;">
+<node CREATED="1424513839985" ID="ID_1024827719" MODIFIED="1424513842953" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424513845658" ID="ID_1166107188" MODIFIED="1424513865958" TEXT="Future&lt;?&gt; submit(Runnable task)">
+<node CREATED="1424513877561" ID="ID_470935157" MODIFIED="1424513983549" TEXT="&#x5c06;&#x4e00;&#x4e2a;Runnable&#x5bf9;&#x8c61;&#x63d0;&#x4ea4;&#x7ed9;&#x7ebf;&#x7a0b;&#x6c60;&#xff0c;&#x56e0;&#x4e3a;run&#x65b9;&#x6cd5;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x503c;&#xff0c;&#x6240;&#x4ee5;Future&#x5bf9;&#x8c61;&#x5728;&#x7ebf;&#x7a0b;&#x6267;&#x884c;&#x5b8c;&#x540e;&#x8fd4;&#x56de;null&#xff0c;&#x53ef;&#x4ee5;&#x8c03;&#x7528;Future&#x7684;isDone&#x548c;isCancle&#x65b9;&#x6cd5;&#x83b7;&#x53d6;Runnable&#x5bf9;&#x8c61;&#x7684;&#x6267;&#x884c;&#x72b6;&#x6001;"/>
+</node>
+<node CREATED="1424514123945" ID="ID_1290851276" MODIFIED="1424514158619" TEXT="&lt;T&gt;  Future &lt;T&gt; submit(Runnable task,T result)">
+<node CREATED="1424514226329" ID="ID_1333020334" MODIFIED="1424514284443" TEXT="&#x65b9;&#x6cd5;&#x4e2d;result&#x663e;&#x793a;&#x6307;&#x5b9a;&#x7ebf;&#x7a0b;&#x6267;&#x884c;&#x7ed3;&#x675f;&#x540e;&#x7684;&#x8fd4;&#x56de;&#x503c;&#xff0c;&#x6240;&#x4ee5;Future&#x5bf9;&#x8c61;&#x5c06;&#x5728;run&#x65b9;&#x6cd5;&#x6267;&#x884c;&#x7ed3;&#x675f;&#x540e;&#x8fd4;&#x56de;result"/>
+<node CREATED="1424517560675" ID="ID_1776383740" LINK="java/thread/Runnable_submit.md" MODIFIED="1424517577648" TEXT="&#x793a;&#x4f8b;"/>
+</node>
+<node CREATED="1424514332513" ID="ID_927315388" MODIFIED="1424514357969" TEXT="&lt;T&gt; Future &lt;T&gt; submit(Callable&lt;T&gt; task)">
+<node CREATED="1424514361728" ID="ID_817096897" MODIFIED="1424514390245" TEXT="&#x65b9;&#x6cd5;&#x4e2d;&#x7684;Future&#x4ee3;&#x8868;Callable&#x5bf9;&#x8c61;&#x91cc;&#x7684;call&#x65b9;&#x6cd5;&#x8fd4;&#x56de;&#x503c;"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1395070972733" ID="ID_1879899468" MODIFIED="1395070977955" TEXT="&#x7ebf;&#x7a0b;&#x5b89;&#x5168;&#x96c6;&#x5408;">
 <node CREATED="1395070993717" ID="ID_364916362" MODIFIED="1395070995709" TEXT="&#x4f7f;&#x7528;Collections&#x7c7b;&#x4e0b;&#x4ee5;synchronized&#x5f00;&#x5934;&#x7684;&#x9759;&#x6001;&#x65b9;&#x6cd5;&#x5305;&#x88c5;&#x4e0d;&#x5b89;&#x5168;&#x7684;&#x7ebf;&#x7a0b;&#x96c6;&#x5408;"/>
