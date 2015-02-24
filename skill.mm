@@ -343,18 +343,103 @@
 </node>
 </node>
 <node CREATED="1395106620378" ID="ID_815409286" LINK="java/&#x8f93;&#x5165;&#x8f93;&#x51fa;/java&#x8f93;&#x5165;&#x8f93;&#x51fa;.docx" MODIFIED="1395245628796" TEXT="&#x8f93;&#x5165;/&#x8f93;&#x51fa;&#xff08;IO&#xff09;">
-<node CREATED="1395245247069" ID="ID_349953213" MODIFIED="1395245263043" TEXT="&#x4f7f;&#x7528;File&#x7c7b;&#x8bbf;&#x95ee;&#x6587;&#x4ef6;&#x548c;&#x76ee;&#x5f55;">
-<node CREATED="1395245287037" ID="ID_1368531756" MODIFIED="1395245291581" TEXT="&#x8bbf;&#x95ee;&#x6587;&#x4ef6;&#x540d;"/>
-<node CREATED="1395245295052" ID="ID_1920501533" MODIFIED="1395245298279" TEXT="&#x6587;&#x4ef6;&#x68c0;&#x6d4b;"/>
-<node CREATED="1395245306076" ID="ID_1429873062" MODIFIED="1395245308711" TEXT="&#x6587;&#x4ef6;&#x64cd;&#x4f5c;"/>
-<node CREATED="1395245322741" ID="ID_677240407" MODIFIED="1395245325479" TEXT="&#x76ee;&#x5f55;&#x64cd;&#x4f5c;"/>
-<node CREATED="1395245332124" ID="ID_640851522" MODIFIED="1395245340473" TEXT="&#x6587;&#x4ef6;&#x8fc7;&#x6ee4;&#x5668;"/>
+<node CREATED="1395245247069" ID="ID_349953213" MODIFIED="1424755959279" TEXT="File&#x7c7b;">
+<node CREATED="1395245287037" ID="ID_1368531756" MODIFIED="1424755971653" TEXT="&#x8bbf;&#x95ee;&#x6587;&#x4ef6;&#x540d;&#x6216;&#x76ee;&#x5f55;">
+<node CREATED="1424755974167" ID="ID_588784020" MODIFIED="1424756022478" TEXT="getName():  &#x83b7;&#x53d6;File&#x5bf9;&#x8c61;&#x6240;&#x8868;&#x793a;&#x7684;&#x6587;&#x4ef6;&#x540d;&#x6216;&#x8def;&#x5f84;&#x540d;"/>
+<node CREATED="1424756033931" ID="ID_505033905" MODIFIED="1424756052587" TEXT="getPath(): &#x83b7;&#x53d6;File&#x5bf9;&#x8c61;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x8def;&#x5f84;&#x540d;"/>
+<node CREATED="1424756064687" ID="ID_891916630" MODIFIED="1424756123398" TEXT="File  getAbsolutePath(): &#x8fd4;&#x56de;File&#x5bf9;&#x8c61;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x7edd;&#x5bf9;&#x8def;&#x5f84;&#x6240;&#x5bf9;&#x5e94;&#x7684;File&#x5bf9;&#x8c61;"/>
+<node CREATED="1424756136192" ID="ID_1168116785" MODIFIED="1424756158153" TEXT="getAbsoultPath():  &#x8fd4;&#x56de;&#x7edd;&#x5bf9;&#x8def;&#x5f84;"/>
+<node CREATED="1424756171463" ID="ID_1010609206" MODIFIED="1424756199446" TEXT="getPareht():  &#x8fd4;&#x56de;&#x5bf9;&#x5e94;&#x76ee;&#x5f55;&#x7684;&#x7236;&#x76ee;&#x5f55;&#x540d;  "/>
+<node CREATED="1424756211151" ID="ID_1821243749" MODIFIED="1424756248922" TEXT="boolean renameTo(String name): &#x91cd;&#x547d;&#x540d;"/>
+</node>
+<node CREATED="1395245295052" ID="ID_1920501533" MODIFIED="1395245298279" TEXT="&#x6587;&#x4ef6;&#x68c0;&#x6d4b;">
+<node CREATED="1424756268519" ID="ID_824845243" MODIFIED="1424756288756" TEXT="exists():  &#x5224;&#x65ad;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x6216;&#x76ee;&#x5f55;&#x662f;&#x5426;&#x5b58;&#x5728;"/>
+<node CREATED="1424756293640" ID="ID_1976806649" MODIFIED="1424756317124" TEXT="canWrite():  &#x5224;&#x65ad;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x6216;&#x76ee;&#x5f55;&#x662f;&#x5426;&#x53ef;&#x5199;"/>
+<node CREATED="1424756322646" ID="ID_1304739716" MODIFIED="1424756340656" TEXT="canRead():  &#x5224;&#x65ad;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x6216;&#x76ee;&#x5f55;&#x662f;&#x5426;&#x53ef;&#x8bfb;"/>
+<node CREATED="1424756357904" ID="ID_663285055" MODIFIED="1424756366599" TEXT="isFile():  &#x662f;&#x5426;&#x6587;&#x4ef6;"/>
+<node CREATED="1424756369151" ID="ID_778101349" MODIFIED="1424756388522" TEXT="isDirectory(): &#x662f;&#x5426;&#x6587;&#x4ef6;&#x5939;"/>
+<node CREATED="1424756430023" ID="ID_1805333241" MODIFIED="1424756462113" TEXT="isAbsolute(): &#x5224;&#x65ad;File&#x5bf9;&#x8c61;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x6216;&#x76ee;&#x5f55;&#x662f;&#x5426;&#x7edd;&#x5bf9;&#x8def;&#x5f84;"/>
+</node>
+<node CREATED="1424757111380" ID="ID_1985879388" MODIFIED="1424757116885" TEXT="&#x6587;&#x4ef6;&#x4fe1;&#x606f;">
+<node CREATED="1424757119660" ID="ID_1189210012" MODIFIED="1424757142829" TEXT="getModified():  &#x8fd4;&#x56de;&#x6587;&#x4ef6;&#x6700;&#x540e;&#x4fee;&#x6539;&#x65e5;&#x671f;"/>
+<node CREATED="1424757146508" ID="ID_777700357" MODIFIED="1424757159564" TEXT="getLength():  &#x8fd4;&#x56de;&#x6587;&#x4ef6;&#x5185;&#x5bb9;&#x7684;&#x957f;&#x5ea6;"/>
+</node>
+<node CREATED="1395245306076" ID="ID_1429873062" MODIFIED="1395245308711" TEXT="&#x6587;&#x4ef6;&#x64cd;&#x4f5c;">
+<node CREATED="1424757206807" ID="ID_1497131343" MODIFIED="1424757227631" TEXT="createNewFile():  &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x6587;&#x4ef6;"/>
+<node CREATED="1424757230427" ID="ID_1271525882" MODIFIED="1424757252094" TEXT="delete():  &#x5220;&#x9664;File&#x5bf9;&#x8c61;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x6216;&#x8def;&#x5f84;"/>
+<node CREATED="1424757260269" ID="ID_199195969" MODIFIED="1424757315124" TEXT="static File createTempFIle(String prefix,String suffix):  &#x5728;&#x9ed8;&#x8ba4;&#x7684;&#x4e34;&#x65f6;&#x76ee;&#x5f55;&#x4e0b;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x4e34;&#x65f6;&#x7684;&#x7a7a;&#x6587;&#x4ef6;"/>
+<node CREATED="1424757328899" ID="ID_1834480970" MODIFIED="1424757379526" TEXT="static File createTempFile(String prefix,String suffix,File directory): &#x5728;&#x6307;&#x5b9a;&#x76ee;&#x5f55;&#x4e0b;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x4e34;&#x65f6;&#x7684;&#x7a7a;&#x6587;&#x4ef6;"/>
+<node CREATED="1424757406451" ID="ID_111976408" MODIFIED="1424757446266" TEXT="deleteOnExit():  &#x6ce8;&#x518c;&#x4e00;&#x4e2a;&#x5220;&#x9664;&#x94a9;&#x5b50;&#xff0c;&#x5f53;java&#x865a;&#x62df;&#x673a;&#x9000;&#x51fa;&#x65f6;&#xff0c;&#x5220;&#x9664;File&#x5bf9;&#x8c61;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x4ef6;&#x76d2;&#x76ee;&#x5f55;"/>
+</node>
+<node CREATED="1395245322741" ID="ID_677240407" MODIFIED="1395245325479" TEXT="&#x76ee;&#x5f55;&#x64cd;&#x4f5c;">
+<node CREATED="1424757516779" ID="ID_775448708" MODIFIED="1424757529852" TEXT="mkdir():  &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x76ee;&#x5f55;"/>
+<node CREATED="1424758730084" ID="ID_999228053" MODIFIED="1424758764246" TEXT="String[] list():&#x5217;&#x51fa;File&#x5bf9;&#x8c61;&#x7684;&#x6240;&#x6709;&#x5b50;&#x6587;&#x4ef6;&#x540d;&#x548c;&#x8def;&#x5f84;&#x540d;"/>
+<node CREATED="1424758785196" ID="ID_206028367" MODIFIED="1424758812727" TEXT="File[] listFiles():  &#x5217;&#x51fa;File&#x5bf9;&#x8c61;&#x5bf9;&#x5e94;&#x7684;&#x5b50;&#x6587;&#x4ef6;&#x548c;&#x8def;&#x5f84;"/>
+<node CREATED="1424758828516" ID="ID_31916210" MODIFIED="1424758850102" TEXT="static File[] listRoots():  &#x5217;&#x51fa;&#x7cfb;&#x7edf;&#x6240;&#x6709;&#x7684;&#x6839;&#x8def;&#x5f84;"/>
+</node>
+<node CREATED="1424759308435" ID="ID_900735817" MODIFIED="1424759312900" TEXT="&#x6587;&#x4ef6;&#x8fc7;&#x6ee4;&#x5668;">
+<node CREATED="1424759358947" ID="ID_476757363" MODIFIED="1424759376342" TEXT="&#x53ef;&#x4ee5;&#x5229;&#x7528;FilenameFilter&#x63a5;&#x53e3;&#x5bf9;&#x6587;&#x4ef6;&#x8fdb;&#x884c;&#x8fc7;&#x6ee4;"/>
+<node CREATED="1424759379524" ID="ID_1470044490" LINK="java/io/FilenameFilter&#x63a5;&#x53e3;&#x5b9e;&#x73b0;&#x6587;&#x4ef6;&#x8fc7;&#x6ee4;&#x5668;.md" MODIFIED="1424759835513" TEXT="&#x793a;&#x4f8b;"/>
+</node>
 </node>
 <node CREATED="1395245356117" ID="ID_838204258" MODIFIED="1395245362137" TEXT="IO&#x6d41;">
 <node CREATED="1395245377420" ID="ID_1589185236" MODIFIED="1395245383832" TEXT="&#x6d41;&#x7684;&#x5206;&#x7c7b;">
-<node CREATED="1395245390347" ID="ID_992388609" MODIFIED="1395245396260" TEXT="&#x8f93;&#x5165;&#x6d41;&#x548c;&#x8f93;&#x51fa;&#x6d41;"/>
-<node CREATED="1395245401451" ID="ID_146426832" MODIFIED="1395245409493" TEXT="&#x5b57;&#x8282;&#x6d41;&#x548c;&#x5b57;&#x7b26;&#x6d41;"/>
-<node CREATED="1395245412387" ID="ID_537134165" MODIFIED="1395245418716" TEXT="&#x8282;&#x70b9;&#x6d41;&#x548c;&#x5904;&#x7406;&#x6d41;"/>
+<node CREATED="1424760168049" ID="ID_103168833" MODIFIED="1424760200333" TEXT="&#x6d41;&#x5411;&#xff08;&#x76f8;&#x5bf9;&#x4e8e;&#x5185;&#x5b58;&#xff09;">
+<node CREATED="1424760178423" ID="ID_729919876" MODIFIED="1424760182712" TEXT="&#x8f93;&#x5165;&#x6d41;">
+<node CREATED="1424761023988" ID="ID_1437433142" MODIFIED="1424766878349" TEXT="InputStream&#x62bd;&#x8c61;&#x7c7b;">
+<node CREATED="1424766104423" ID="ID_1102823850" MODIFIED="1424766109643" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424766112479" ID="ID_22475334" MODIFIED="1424766235667" TEXT="read(): &#x4ece;&#x8f93;&#x5165;&#x6d41;&#x4e2d;&#x8bfb;&#x53d6;&#x5355;&#x4e2a;&#x5b57;&#x8282;&#xff0c;&#x8fd4;&#x56de;&#x6240;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x8282;&#x6570;&#x636e;"/>
+<node CREATED="1424766161566" ID="ID_1635646376" MODIFIED="1424766226541" TEXT="read(byte[] b): &#x4ece;&#x8f93;&#x5165;&#x6d41;&#x4e2d;&#x8bfb;&#x53d6;b.length&#x4e2a;&#x5b57;&#x8282;&#x6570;&#x636e;&#xff0c;&#x5c06;&#x5176;&#x653e;&#x5165;&#x6570;&#x636e;b&#x4e2d;&#xff0c;&#x8fd4;&#x56de;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x8282;&#x6570;"/>
+<node CREATED="1424766247126" ID="ID_1184612393" MODIFIED="1424766500357" TEXT="read(byte[] b,int off,int len):  &#x4ece;off&#x4f4d;&#x7f6e;&#x5f00;&#x59cb;&#x8bfb;&#x53d6;len&#x4e2a;&#x5b57;&#x8282;&#x6570;&#x636e;&#xff0c;&#x5e76;&#x5c06;&#x5176;&#x5b58;&#x5165;&#x6570;&#x7ec4;b&#x4e2d;&#xff0c;&#x8fd4;&#x56de;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x8282;&#x6570;"/>
+</node>
+<node CREATED="1424766802459" ID="ID_259058045" MODIFIED="1424766893522" TEXT="&#x5bf9;&#x5e94;FileInputStream &#x5b9e;&#x73b0;&#x7c7b;"/>
+</node>
+<node CREATED="1424766393021" ID="ID_1189485066" MODIFIED="1424766884392" TEXT="Reader&#x62bd;&#x8c61;&#x7c7b;">
+<node CREATED="1424766424061" ID="ID_680573958" MODIFIED="1424766428700" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424766439356" ID="ID_911989021" MODIFIED="1424766474613" TEXT="read():  &#x8bfb;&#x53d6;&#x5355;&#x4e2a;&#x5b57;&#x7b26;&#xff0c;&#x8fd4;&#x56de;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x7b26;&#x6570;&#x636e;"/>
+<node CREATED="1424766505621" ID="ID_494462624" MODIFIED="1424766557640" TEXT="read(char[] b): &#x6700;&#x591a;&#x8bfb;&#x53d6;b.length&#x4e2a;&#x5b57;&#x7b26;&#x6570;&#x636e;&#xff0c;&#x5b58;&#x5165;b&#x6570;&#x7ec4;&#x4e2d;&#xff0c;&#x8fd4;&#x56de;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x7b26;&#x6570;"/>
+<node CREATED="1424766568605" ID="ID_185858929" MODIFIED="1424766621287" TEXT="read(char[] b,int off,int len): &#x4ece;off&#x4f4d;&#x7f6e;&#x5f00;&#x59cb;&#x8bfb;&#x53d6;len&#x4e2a;&#x5b57;&#x7b26;&#x6570;&#x636e;&#x5b58;&#x5165;b&#x6570;&#x7ec4;&#x4e2d;&#xff0c;&#x8fd4;&#x56de;&#x8bfb;&#x53d6;&#x7684;&#x5b57;&#x7b26;&#x6570;"/>
+</node>
+<node CREATED="1424766817230" ID="ID_1007633005" MODIFIED="1424766899083" TEXT="&#x5bf9;&#x5e94;FileReader &#x5b9e;&#x73b0;&#x7c7b;"/>
+</node>
+</node>
+<node CREATED="1424760185256" ID="ID_1825042896" MODIFIED="1424760188926" TEXT="&#x8f93;&#x51fa;&#x6d41;">
+<node CREATED="1424761052100" ID="ID_680807618" MODIFIED="1424791127444" TEXT="OutputStream&#x62bd;&#x8c61;&#x7c7b;">
+<node CREATED="1424791209192" ID="ID_965340137" MODIFIED="1424791212834" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424791215518" ID="ID_684304656" MODIFIED="1424791256642" TEXT="write(int c):  &#x5c06;&#x6307;&#x5b9a;&#x7684;&#x5b57;&#x8282;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+<node CREATED="1424791300662" ID="ID_1237865419" MODIFIED="1424791337695" TEXT="write(byte[] buf):  &#x5c06;&#x5b57;&#x8282;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6570;&#x636e;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+<node CREATED="1424791376286" ID="ID_128785403" MODIFIED="1424791434464" TEXT="write(byte[] buf,int off,int len): &#x5c06;&#x5b57;&#x8282;&#x6570;&#x7ec4;&#x4e2d;&#x4ece;off&#x4f4d;&#x7f6e;&#x5f00;&#x59cb;&#x957f;&#x5ea6;&#x4e3a;len&#x7684;&#x6570;&#x7ec4;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+</node>
+</node>
+<node CREATED="1424791100191" ID="ID_1858077060" MODIFIED="1424791118356" TEXT="Writer&#x62bd;&#x8c61;&#x7c7b;">
+<node CREATED="1424791269102" ID="ID_667876940" MODIFIED="1424791272235" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1424791281303" ID="ID_1051410251" MODIFIED="1424791287694" TEXT="write(int c):  &#x5c06;&#x6307;&#x5b9a;&#x7684;&#x5b57;&#x7b26;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+<node CREATED="1424791348807" ID="ID_832839347" MODIFIED="1424791366412" TEXT="write(char[] buf):  &#x5c06;&#x5b57;&#x7b26;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6570;&#x636e;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+<node CREATED="1424791442775" ID="ID_1469416618" MODIFIED="1424791458943" TEXT="write(char[] buf,int off,int len): &#x5c06;&#x5b57;&#x7b26;&#x6570;&#x7ec4;&#x4e2d;&#x4ece;off&#x4f4d;&#x7f6e;&#x5f00;&#x59cb;&#x957f;&#x5ea6;&#x4e3a;len&#x7684;&#x6570;&#x7ec4;&#x8f93;&#x51fa;&#x5230;&#x8f93;&#x51fa;&#x6d41;&#x4e2d;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1424760214184" ID="ID_963054945" MODIFIED="1424760217744" TEXT="&#x6570;&#x636e;&#x5355;&#x5143;">
+<node CREATED="1424760221086" ID="ID_853660668" MODIFIED="1424760442027" TEXT="&#x5b57;&#x8282;&#x6d41;&#xff08;8&#x4f4d;&#x5b57;&#x8282;&#xff09;">
+<node CREATED="1424761099708" ID="ID_1998739641" MODIFIED="1424761113458" TEXT="InputStream&#x3001;OutputStream&#x4f5c;&#x4e3a;&#x57fa;&#x7c7b;"/>
+</node>
+<node CREATED="1424760227616" ID="ID_1770681357" MODIFIED="1424760453645" TEXT="&#x5b57;&#x7b26;&#x6d41;&#xff08;16&#x4f4d;&#x5b57;&#x7b26;&#xff09;">
+<node CREATED="1424761116692" ID="ID_627520497" MODIFIED="1424761129994" TEXT="Reader&#x3001;Writer&#x4f5c;&#x4e3a;&#x57fa;&#x7c7b;"/>
+</node>
+</node>
+<node CREATED="1424760242016" ID="ID_874461973" MODIFIED="1424760247030" TEXT="&#x89d2;&#x8272;">
+<node CREATED="1424760249712" ID="ID_700662656" MODIFIED="1424760254703" TEXT="&#x8282;&#x70b9;&#x6d41;">
+<node CREATED="1424760534070" ID="ID_1086066945" MODIFIED="1424760602907" TEXT="&#x76f4;&#x63a5;&#x8fde;&#x63a5;&#x4e00;&#x4e2a;&#x7279;&#x5b9a;&#x7684;IO&#x8bbe;&#x5907;&#x8bfb;&#x53d6;&#x6570;&#x636e;&#x7684;&#x6d41;"/>
+<node CREATED="1424766837556" ID="ID_1024855545" MODIFIED="1424766844431" TEXT="&#x5b9e;&#x73b0;&#x7c7b;">
+<node CREATED="1424766847500" ID="ID_1069169488" MODIFIED="1424766853927" TEXT="FileInputStream"/>
+<node CREATED="1424766856524" ID="ID_424026429" MODIFIED="1424766859088" TEXT="FileReader"/>
+</node>
+</node>
+<node CREATED="1424760257263" ID="ID_1338111853" MODIFIED="1424760259887" TEXT="&#x5904;&#x7406;&#x6d41;">
+<node CREATED="1424760616350" ID="ID_616101642" MODIFIED="1424760659288" TEXT="&#x5bf9;&#x4e00;&#x4e2a;&#x5df2;&#x5b58;&#x5728;&#x7684;&#x6d41;&#x8fdb;&#x884c;&#x8fde;&#x63a5;&#x6216;&#x5c01;&#x88c5;&#xff0c;&#x901a;&#x8fc7;&#x5c01;&#x88c5;&#x540e;&#x7684;&#x6d41;&#x8fdb;&#x884c;&#x8bfb;&#x5199;&#x529f;&#x80fd;"/>
+</node>
+</node>
 </node>
 <node CREATED="1395245429004" ID="ID_974674505" MODIFIED="1395245437405" TEXT="&#x91cd;&#x5b9a;&#x5411;&#x6807;&#x51c6;&#x8f93;&#x5165;&#x8f93;&#x51fa;"/>
 <node CREATED="1395245445899" ID="ID_106716367" MODIFIED="1395245458727" TEXT="RandomAccessFile&#x7c7b;&#x4f7f;&#x7528;"/>
