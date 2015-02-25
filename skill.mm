@@ -481,9 +481,31 @@
 </node>
 </node>
 <node CREATED="1395245467660" ID="ID_452697903" MODIFIED="1395245483519" TEXT="&#x5bf9;&#x8c61;&#x5e8f;&#x5217;&#x5316;">
-<node CREATED="1395245492636" ID="ID_1634996708" MODIFIED="1395245537932" TEXT="&#x5e8f;&#x5217;&#x5316;&#x9700;&#x8981;&#x7684;&#x6d41;">
-<node CREATED="1395245540115" ID="ID_1625269586" MODIFIED="1395245547337" TEXT="ObjectInputStream"/>
-<node CREATED="1395245549939" ID="ID_1354426245" MODIFIED="1395245559847" TEXT="ObjectOutputStream"/>
+<node CREATED="1424882121231" ID="ID_529051000" MODIFIED="1424882149197" TEXT="&#x76ee;&#x6807;&#x662f;&#x5c06;&#x5bf9;&#x8c61;&#x4fdd;&#x5b58;&#x5230;&#x78c1;&#x76d8;&#x4e2d;&#x6216;&#x5728;&#x7f51;&#x7edc;&#x4e2d;&#x4f20;&#x8f93;"/>
+<node CREATED="1424882504333" ID="ID_1936475346" MODIFIED="1424882533273" TEXT="&#x5e8f;&#x5217;&#x5316;&#x6807;&#x8bb0;&#x63a5;&#x53e3;">
+<node CREATED="1424882535831" ID="ID_355875621" MODIFIED="1424882543046" TEXT="Serializable">
+<node CREATED="1424882545870" ID="ID_1599526270" MODIFIED="1424882581519" TEXT="&#x8be5;&#x63a5;&#x53e3;&#x65e0;&#x987b;&#x5b9e;&#x73b0;&#x4efb;&#x4f55;&#x63a5;&#x53e3;&#xff0c;&#x53ea;&#x662f;&#x8868;&#x660e;&#x8be5;&#x7c7b;&#x53ef;&#x5e8f;&#x5217;&#x5316;"/>
+</node>
+<node CREATED="1424882593854" ID="ID_1447495816" MODIFIED="1424882604380" TEXT="Externalizable"/>
+</node>
+<node CREATED="1395245492636" ID="ID_1634996708" MODIFIED="1424882747124" TEXT="&#x4f7f;&#x7528;&#x5bf9;&#x8c61;&#x6d41;&#x5b9e;&#x73b0;&#x5e8f;&#x5217;&#x5316;">
+<node CREATED="1395245540115" ID="ID_1625269586" LINK="java/io/ObjectInputStream_test.md" MODIFIED="1424883817829" TEXT="&#x53cd;&#x5e8f;&#x5217;&#x5316;&#x8f93;&#x5165;&#x6d41;  ObjectInputStream"/>
+<node CREATED="1395245549939" ID="ID_1354426245" LINK="java/io/ObjectOutputStream_test.md" MODIFIED="1424883519744" TEXT="&#x5e8f;&#x5217;&#x5316;&#x8f93;&#x51fa;&#x6d41;     ObjectOutputStream"/>
+</node>
+<node CREATED="1424884039090" ID="ID_1709237651" MODIFIED="1424884074082" TEXT="&#x5e8f;&#x5217;&#x5316;&#x7c7b;&#x7684;&#x7236;&#x7c7b;">
+<node CREATED="1424884076000" ID="ID_826654797" MODIFIED="1424884124968" TEXT="&#x8981;&#x4e48;&#x6709;&#x65e0;&#x53c2;&#x6570;&#x6784;&#x9020;&#x51fd;&#x6570;&#xff0c;&#x8981;&#x4e48;&#x4e5f;&#x662f;&#x5e8f;&#x5217;&#x5316;&#x7684;&#xff0c;&#x5426;&#x5219;&#x4f1a;&#x629b;&#x51fa;InvalidClassException&#x5f02;&#x5e38;"/>
+<node CREATED="1424884128520" ID="ID_593817811" MODIFIED="1424884174594" TEXT="&#x7236;&#x7c7b;&#x5982;&#x679c;&#x4e0d;&#x662f;&#x53ef;&#x5e8f;&#x5217;&#x5316;&#x7684;&#x6307;&#x6570;&#x6709;&#x65e0;&#x53c2;&#x6570;&#x7684;&#x6784;&#x9020;&#x51fd;&#x6570;&#xff0c;&#x90a3;&#x4e48;&#x7236;&#x7c7b;&#x4e2d;&#x7684;Field&#x503c;&#x4e0d;&#x4f1a;&#x88ab;&#x5e8f;&#x5217;&#x5316;"/>
+</node>
+<node CREATED="1424884876364" ID="ID_238851900" MODIFIED="1424884884983" TEXT="&#x5e8f;&#x5217;&#x5316;&#x673a;&#x5236;">
+<node CREATED="1424884892036" ID="ID_1836979192" MODIFIED="1424884904089" TEXT="&#x4fdd;&#x5b58;&#x5230;&#x78c1;&#x76d8;&#x4e2d;&#x7684;&#x5bf9;&#x8c61;&#x90fd;&#x6709;&#x4e00;&#x4e2a;&#x7f16;&#x53f7;"/>
+<node CREATED="1424884909204" ID="ID_452875591" MODIFIED="1424884943513" TEXT="&#x5f53;&#x7a0b;&#x5e8f;&#x5e8f;&#x5217;&#x5316;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x65f6;&#x4f1a;&#x68c0;&#x67e5;&#x8be5;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x88ab;&#x5e8f;&#x5217;&#x5316;&#x8fc7;"/>
+<node CREATED="1424884951611" ID="ID_967045855" MODIFIED="1424884982394" TEXT="&#x5982;&#x679c;&#x5bf9;&#x8c61;&#x5df2;&#x7ecf;&#x88ab;&#x5e8f;&#x5217;&#x5316;&#x8fc7;&#xff0c;&#x5219;&#x7a0b;&#x5e8f;&#x53ea;&#x4f1a;&#x8f93;&#x51fa;&#x4e00;&#x4e2a;&#x5e8f;&#x5217;&#x5316;&#x7f16;&#x53f7;"/>
+</node>
+<node CREATED="1424885122931" ID="ID_117444232" MODIFIED="1424885127799" TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x5e8f;&#x5217;&#x5316;">
+<node CREATED="1424885135907" ID="ID_441863538" MODIFIED="1424885176425" TEXT="&#x5728;Field&#x524d;&#x52a0;&#x4e0a;transient&#x5173;&#x952e;&#x5b57;&#x5c31;&#x8868;&#x793a;&#x8be5;Field&#x65e0;&#x987b;&#x5e8f;&#x5217;&#x5316;"/>
+</node>
+<node CREATED="1424884248766" ID="ID_1847483576" MODIFIED="1424884257235" TEXT="notice issue">
+<node CREATED="1424884260894" ID="ID_139846667" MODIFIED="1424884302244" TEXT="&#x5e8f;&#x5217;&#x5316;&#x7c7b;&#x7684;Field&#x503c;&#x5982;&#x679c;&#x662f;&#x5f15;&#x7528;&#x7c7b;&#x578b;&#xff0c;&#x90a3;&#x4e48;&#x5f15;&#x7528;&#x7c7b;&#x4e5f;&#x5fc5;&#x987b;&#x662f;&#x5e8f;&#x5217;&#x5316;&#x7684;"/>
 </node>
 </node>
 <node CREATED="1395245564251" ID="ID_604670969" MODIFIED="1395245566546" TEXT="NIO"/>
