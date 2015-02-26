@@ -1,6 +1,6 @@
 ﻿#利用Field对象访问属性
 
-###Person对象
+###Person类
 ```
 public class Person{
 	//属性都是私有的
