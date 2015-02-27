@@ -779,7 +779,7 @@
 <node CREATED="1424942720797" ID="ID_1122973784" MODIFIED="1424942777187" TEXT="&#x4f7f;&#x7528;ClassLoader&#x7c7b;&#x7684;loadClass()&#x65b9;&#x6cd5;&#x4f1a;&#x52a0;&#x8f7d;&#x7c7b;&#xff0c;&#x4e0d;&#x4f1a;&#x521d;&#x59cb;&#x5316;&#xff0c;&#x4f7f;&#x7528;Class&#x7684;forName&#x65b9;&#x6cd5;&#x624d;&#x4f1a;&#x521d;&#x59cb;&#x5316;&#x7c7b;"/>
 </node>
 </node>
-<node CREATED="1424957119315" ID="ID_1980832243" MODIFIED="1424957123238" TEXT="&#x53cd;&#x5c04;">
+<node CREATED="1424957119315" FOLDED="true" ID="ID_1980832243" MODIFIED="1425025157806" TEXT="&#x53cd;&#x5c04;">
 <node CREATED="1424959051565" ID="ID_1161988733" MODIFIED="1424959062822" TEXT="&#x83b7;&#x53d6;class&#x5bf9;&#x8c61;&#x7684;&#x65b9;&#x5f0f;">
 <node CREATED="1424959068277" ID="ID_1446103771" MODIFIED="1424959093144" TEXT="&#x4f7f;&#x7528;Class&#x7c7b;&#x7684;forName(String clazzName)"/>
 <node CREATED="1424959098395" ID="ID_1227950594" MODIFIED="1424959126502" TEXT="&#x8c03;&#x7814;&#x67d0;&#x4e2a;&#x7c7b;&#x7684;class&#x5c5e;&#x6027;&#x6765;&#x83b7;&#x53d6;&#x5bf9;&#x5e94;&#x7684;Class&#x5bf9;&#x8c61;">
@@ -830,6 +830,23 @@
 <node CREATED="1424972286334" ID="ID_831049694" LINK="java/reflect/Field_test.md" MODIFIED="1424972720312" TEXT="&#x793a;&#x4f8b;"/>
 </node>
 <node CREATED="1424972775645" ID="ID_1357957243" MODIFIED="1424972777933" TEXT="&#x64cd;&#x4f5c;&#x6570;&#x7ec4;"/>
+</node>
+<node CREATED="1425017887837" ID="ID_1670207001" MODIFIED="1425017894951" TEXT="jdk&#x52a8;&#x6001;&#x4ee3;&#x7406;">
+<node CREATED="1425022495037" ID="ID_335326576" MODIFIED="1425022508021" TEXT="&#x53ea;&#x80fd;&#x4e3a;&#x63a5;&#x53e3;&#x521b;&#x5efa;&#x52a8;&#x6001;&#x4ee3;&#x7406;"/>
+<node CREATED="1425018002156" ID="ID_1985447596" MODIFIED="1425018006007" TEXT="Proxy&#x7c7b;">
+<node CREATED="1425018008837" ID="ID_347456018" MODIFIED="1425018011818" TEXT="&#x4e3b;&#x8981;&#x65b9;&#x6cd5;">
+<node CREATED="1425018014669" ID="ID_1462956881" MODIFIED="1425018767952" TEXT="static Class&lt;?&gt; getProxyClass(ClassLoader loader,Class&lt;?&gt; ...interfaces)">
+<node CREATED="1425018101116" ID="ID_359201628" MODIFIED="1425018143356" TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x4ee3;&#x7406;&#x7c7b;&#x5bf9;&#x5e94;&#x7684;Class&#x5bf9;&#x8c61;&#xff0c;&#x8be5;&#x7c7b;&#x5b9e;&#x73b0;&#x4e86;interfaces&#x5bf9;&#x5e94;&#x7684;&#x591a;&#x4e2a;&#x63a5;&#x53e3;"/>
+</node>
+<node CREATED="1425018163001" ID="ID_1409814232" MODIFIED="1425018210147" TEXT="static Object newProxyInstance(Classloader loader,Class&lt;?&gt;[] interfaces,InvocationHandle h)">
+<node CREATED="1425018217171" ID="ID_1490539939" MODIFIED="1425018323959" TEXT="&#x76f4;&#x63a5;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x52a8;&#x6001;&#x4ee3;&#x7406;&#x5bf9;&#x8c61;&#xff0c;&#x5b9e;&#x73b0;interfaces&#x6307;&#x5b9a;&#x7684;&#x63a5;&#x53e3;&#xff0c;&#x6267;&#x884c;&#x4ee3;&#x7406;&#x5bf9;&#x8c61;&#x7684;&#x6bcf;&#x4e2a;&#x65b9;&#x6cd5;&#x65f6;&#x90fd;&#x4f1a;&#x88ab;&#x66ff;&#x6362;&#x6267;&#x884c;InvocationHandle&#x7684;invoke&#x65b9;&#x6cd5;"/>
+<node CREATED="1425020945706" ID="ID_1143625741" LINK="java/reflect/Proxy_invocationHandler.md" MODIFIED="1425021197051" TEXT="&#x793a;&#x4f8b;"/>
+</node>
+</node>
+</node>
+<node CREATED="1425025090417" ID="ID_964298983" MODIFIED="1425025101682" TEXT="&#x52a8;&#x6001;&#x4ee3;&#x7406;&#x5b9e;&#x73b0;AOP">
+<node CREATED="1425025104917" ID="ID_268501349" LINK="java/reflect/Proxy_aop.md" MODIFIED="1425025114386" TEXT="&#x793a;&#x4f8b;"/>
+</node>
 </node>
 </node>
 </node>
