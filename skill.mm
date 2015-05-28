@@ -1763,7 +1763,18 @@
 <node CREATED="1425281896301" ID="ID_1438049736" MODIFIED="1425281939860" TEXT="Xss: &#x63a7;&#x5236;&#x7ebf;&#x7a0b;&#x7684;&#x5806;&#x6808;&#x7684;&#x5927;&#x5c0f;"/>
 </node>
 </node>
-<node CREATED="1432715313544" ID="ID_717557361" MODIFIED="1432715330550" TEXT="Netty"/>
+<node CREATED="1432715313544" ID="ID_717557361" MODIFIED="1432715330550" TEXT="Netty">
+<node CREATED="1432794648389" ID="ID_599417101" MODIFIED="1432794650456" TEXT="NIO">
+<node CREATED="1432794910764" ID="ID_1331897752" MODIFIED="1432795706395" TEXT="&#x7f13;&#x51b2;&#x533a;&#xff08;buffer&#xff09;">
+<node CREATED="1432795153561" ID="ID_1556016151" MODIFIED="1432795176121" TEXT="&#x4efb;&#x4f55;&#x65f6;&#x5019;&#x8bbf;&#x95ee;NIO&#x4e2d;&#x7684;&#x6570;&#x636e;&#xff0c;&#x90fd;&#x662f;&#x901a;&#x8fc7;&#x7f13;&#x51b2;&#x533a;&#x64cd;&#x4f5c;&#x7684;"/>
+<node CREATED="1432795265707" ID="ID_998312547" MODIFIED="1432795304502" TEXT="&#x5b9e;&#x8d28;&#x4e0a;&#x662f;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#xff0c;&#x901a;&#x5e38;&#x662f;&#x5b57;&#x8282;&#x6570;&#x7ec4;&#xff08;ByteBuffer&#xff09;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x662f;&#x5176;&#x5b83;&#x7c7b;&#x578b;&#x7684;&#x6570;&#x7ec4;"/>
+</node>
+<node CREATED="1432795684809" ID="ID_1088389271" MODIFIED="1432795693293" TEXT="&#x901a;&#x9053;&#xff08;channel&#xff09;"/>
+<node CREATED="1432796799573" ID="ID_872051998" MODIFIED="1432796822470" TEXT="&#x591a;&#x8def;&#x590d;&#x7528;&#x5668;&#xff08;selector&#xff09;">
+<node CREATED="1432797606741" ID="ID_459634616" MODIFIED="1432797618503" TEXT="&#x53ef;&#x4ee5;&#x540c;&#x65f6;&#x8f6e;&#x8be2;&#x591a;&#x4e2a;channel"/>
+</node>
+</node>
+</node>
 <node CREATED="1432610804042" ID="ID_369843983" MODIFIED="1432610817309" TEXT="javac&#x7f16;&#x8bd1;&#x6b65;&#x9aa4;">
 <node CREATED="1432715175187" ID="ID_1159217778" MODIFIED="1432715178518" TEXT="&#x8bcd;&#x6cd5;&#x5206;&#x6790;">
 <node CREATED="1432715218298" ID="ID_590186931" MODIFIED="1432715219359" TEXT="&#x5c06;java&#x6e90;&#x7801;&#x4e2d;&#x7684;&#x5173;&#x952e;&#x5b57;&#x548c;&#x6807;&#x8bc6;&#x7b26;&#x7b49;&#x5185;&#x5bb9;&#x8f6c;&#x6362;&#x4e3a;&#x7b26;&#x5408;java&#x89c4;&#x8303;&#x7684;token&#x5e8f;&#x5217;&#xff0c;&#x7136;&#x540e;&#x6309;&#x7167;&#x6307;&#x5b9a;&#x7684;&#x987a;&#x5e8f;&#x89c4;&#x5219;&#x8fdb;&#x884c;&#x5339;&#x914d;&#x6821;&#x9a8c;"/>
