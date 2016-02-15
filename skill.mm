@@ -375,6 +375,9 @@
 <node CREATED="1398844319966" ID="ID_917323707" MODIFIED="1398844322673" TEXT="Maven"/>
 <node CREATED="1410249133366" ID="ID_1520092699" MODIFIED="1410249136858" TEXT="gradle"/>
 </node>
+<node CREATED="1455508219580" ID="ID_1550328741" MODIFIED="1455508229354" TEXT="&#x7248;&#x672c;&#x63a7;&#x5236;">
+<node CREATED="1455508233858" ID="ID_1805291195" MODIFIED="1455508235872" TEXT="git"/>
+</node>
 </node>
 <node CREATED="1395021852181" ID="ID_1162722712" MODIFIED="1395021860230" POSITION="left" TEXT="&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;">
 <node CREATED="1425891474578" ID="ID_209817350" MODIFIED="1425891483869" TEXT="&#x521b;&#x5efa;&#x6a21;&#x5f0f;">
@@ -399,8 +402,7 @@
   <body>
     <img src="java/designpatterns/proxy.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1436608576528" ID="ID_1905493154" LINK="java/designpatterns/proxy.md" MODIFIED="1436608911942" TEXT="&#x793a;&#x4f8b;"/>
@@ -430,8 +432,7 @@
   <body>
     <img src="java/designpatterns/decorator.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1436608319081" ID="ID_1704671316" LINK="java/designpatterns/decorator.md" MODIFIED="1436608329401" TEXT="&#x793a;&#x4f8b;"/>
@@ -447,8 +448,7 @@
   <body>
     <img src="java/designpatterns/facade.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1436609313900" ID="ID_1334024873" LINK="java/designpatterns/facade.md" MODIFIED="1436609325705" TEXT="&#x793a;&#x4f8b;"/>
@@ -464,8 +464,7 @@
   <body>
     <img src="java/designpatterns/bridge.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1436609791959" ID="ID_1418374275" LINK="java/designpatterns/bridge.md" MODIFIED="1436610025267" TEXT="&#x793a;&#x4f8b;"/>
